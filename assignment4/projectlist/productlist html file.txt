@@ -1,0 +1,4 @@
+<p>sirivarshini</p>
+<div>
+  <app-product  [product]="products"></app-product>
+</div>

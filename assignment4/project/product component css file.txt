@@ -1,0 +1,26 @@
+.pictures{
+    height:50px;
+    width:50px;
+}
+.ekart-name{
+    font-size: large;
+    color:black;
+    font-style: italic;
+    font-display:bold ;
+
+}
+.ekart-id{
+    font-style:bold;
+    color:blueviolet;
+    font-size: 20px;
+}
+.ekart-price{
+    font-size: large;
+    color:blue;
+    font-style: normal;
+}
+.ekart-description{
+    font-size: larger;
+    color:brown;
+    font-style: oblique;
+}

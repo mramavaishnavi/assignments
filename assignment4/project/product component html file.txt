@@ -1,0 +1,15 @@
+<p>product works!</p>
+<div class="product-list" *ngFor="let item of product" >  
+        
+   <div class="pictures">
+    <img [src]="item.photo">
+   </div> 
+   <img [src]="item.photo">
+  
+      <div class="ekart-name">NAME:{{item.name}}</div>
+      <div class="ekart-id">ID:{{item.id}}</div>
+      <div class="ekart-price">PRICE:{{item.price}}</div>
+      <div class="ekart-description">DESCRIPTION:{{item.description}}</div>
+  
+  
+</div>

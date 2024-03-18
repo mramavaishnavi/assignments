@@ -1,0 +1,58 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
+})
+export class AppComponent {
+  products=[
+      {
+        id: 0,
+        name: 'nike',
+        price :'2000',
+        description:'Nike, Inc. is an American multinational association that is involved in the design, development, manufacturing and worldwide marketing and sales of apparel, footwear, accessories, equipment and services.',
+        photo: 'https://www.freeiconspng.com/thumbs/shoes-png/green-running-shoes-png-24.png',
+        availableUnits: 4
+        
+      },
+      {
+        id: 1,
+        name: 'Adidas',
+        price: '1500',
+        description:'offer a wide variety of styles that can be worn for different occasions, from running shoes to casual sneakers.',
+        photo: 'https://w7.pngwing.com/pngs/323/773/png-transparent-sneakers-basketball-shoe-sportswear-nike-shoe-outdoor-shoe-running-sneakers-thumbnail.png',
+        availableUnits: 0,
+        
+      },
+      {
+        id: 2,
+        name: 'puma',
+        price: '1500',
+        description: 'They are also commonly known as cougars and mountain lions, and are able to reach larger sizes than some other "big" cat individuals.',
+        photo: 'https://w7.pngwing.com/pngs/820/94/png-transparent-shoe-nike-air-max-sneakers-running-running-shoes-orange-outdoor-shoe-converse-thumbnail.png',
+        availableUnits: 1,
+        
+      },
+      {
+        id: 3,
+        name: 'walkmate',
+        price: '3000',
+        description: 'The outsole of the Walkmate safety shoes features the Bata Tunnelsystem®, Flexlines and can be produced direct injected and poured PU-PU.',
+        photo: 'https://png.pngtree.com/png-vector/20201128/ourmid/pngtree-casual-shoes-png-image_2394294.jpg',
+        availableUnits: 1,
+        wifi: true,
+        laundry: false
+      },
+      {
+        id: 4,
+        name: 'bata',
+        price: '2000',
+        description: ' a leading footwear and marketer in the nation. It operates a retail chain of 233 stores all over the country, consisting of City, Family, Angela, Primavera and AW Lab Stores',
+        photo: 'https://i.pinimg.com/474x/66/5b/78/665b78810d6885124347a2a28a954ef4.jpg',
+        availableUnits: 1,
+      },
+      
+    
+  ];
+}

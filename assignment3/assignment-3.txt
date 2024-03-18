@@ -1,0 +1,32 @@
+
+COMPONENT CREATED AND DECLARATION OF FUNCTION
+
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'countercomponent',
+  templateUrl: './countercomponent.component.html',
+   styles:['button{padding:10px 20px;color:red;text-color:bold;font-size:30px;margin:5px}'] /*STYLES APPLIED*/
+})
+})
+export class CountercomponentComponent {
+      name:string='iphone';
+      price:number=999;
+      color:string='black'
+      counter:number=0
+      increment() {
+        this.counter++;
+      }
+    
+      decrement() {
+        this.counter--;
+
+
+
+}
+}
+TEMPLATE APPLIED :
+<p>count:{{counter}}</p>  /*DATA DISPLAYED*/
+<button (click)="increment()">Increment</button>   /*EVENT HANDLING*/
+<button (click)="decrement()">Decrement</button>
+
